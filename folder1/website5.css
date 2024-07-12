@@ -1,0 +1,18 @@
+#parent{
+    background-color: pink;
+    border: 2px double black;
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+
+#child{
+    background-color: rgb(146, 0, 24);
+    border: 2px double rgb(54, 54, 54);
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}

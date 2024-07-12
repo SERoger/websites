@@ -1,0 +1,313 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(108, 84, 211);
+}
+
+body>div {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+#first_div {
+    background-color: rgb(108, 84, 211);
+    height: 150px;
+    position: relative;
+}
+
+#second_div {
+    background-color: rgb(255, 255, 255);
+    height: 1000px;
+    position: relative;
+    margin: auto;
+
+}
+
+#third_div {
+    background-color: rgb(108, 84, 211);
+    height: 250px;
+    position: relative;
+
+}
+
+
+
+#form_info_div {
+    position: relative;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    z-index: 10;
+    width: 60%;
+    margin: auto;
+    bottom: -175px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#top_content_div {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+}
+
+#top_content_div>h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+#top_content_div>p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    color: white;
+    font-size: large;
+}
+
+
+#data_div {
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+}
+
+#data_div > h2{
+    margin-left: 20px;
+    color: rgb(108, 84, 211);
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#info_div > h2{
+    font-size: 35px;
+    margin-left: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#info_div {
+    background-color: rgb(79, 209, 166);
+    width: 30%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+
+}
+
+.form_1{
+    margin: 20px;
+    margin-top: -20px;
+}
+
+.form_1 div {
+    width: 100%;
+    padding: 5px;
+
+}
+
+.form_1 input {
+    width: 40%;
+    height: 30px;
+    font-size: large;
+    padding: 5px;
+}
+
+.form_1 textarea{
+    height: 200px;
+    width: 85%;
+    font-size: 23px;
+}
+
+#form_1_btn {
+    background-color: rgb(108, 84, 211);
+    border: 0px;
+    border-radius: 20px;
+    height: 40px;
+    width: 170px;
+    float: right;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgb(108, 84, 211), 0 6px 20px 0 rgb(108, 84, 211);
+}
+
+#info_div h4,h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 10px;
+}
+
+#info_div h4{
+    font-size: 15px;
+}
+
+#info_div h5{
+    font-size: 10px;
+}
+
+#links{
+    text-align: center;
+}
+
+#links img{
+    margin-left: 10px;
+}
+
+
+
+#questions{
+    position: relative;
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+#questions > div{
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+}
+
+.each_question{
+    position: relative;
+    margin: auto;
+}
+
+.each_question > div{
+    display: inline-block;
+}
+
+.each_question .question_icon_div{
+    width: 20%;
+    position: relative;
+    margin: auto;
+    height: 200px;
+}
+
+.each_question .question_content_div{
+    width: 80%;
+    position: absolute;
+    margin: auto;
+    height: 200px;
+}
+
+.each_question img{
+    margin-left: 40px;
+    margin-top: 20px;
+    height: 30px;
+    width: 30px;
+}
+
+
+
+#second_div_header{
+    margin: auto;
+    margin-top: 100px;
+}
+
+#second_div >h2,p{
+    text-align: left;
+}
+
+.question_content_div > p{
+    margin-top: -17px;
+}
+
+#courses_categories_div{
+    position: relative;
+    margin: auto;
+    width: 80%;
+    height: 350px;
+    bottom: -250px;
+}
+
+.each_category{
+    position: relative;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    z-index: 10;
+    width: 40%;
+    height: 200px;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#free_course_div{
+    float: left;
+    left: 0;
+
+}
+
+#premium_course_div{
+    float: right;
+    right: 0;
+}
+
+#fourth_div {
+    background-color: white;
+    height: 400px;
+    position: relative;
+    text-align: center;
+
+}
+
+#fourth_div >div{
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    bottom: -200px;
+}
+
+#start_login_div > #create_btn{
+    background-color: rgb(108, 84, 211);
+    border: 0px;
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+    float: right;
+    color: white;
+    margin-left: 100px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgb(108, 84, 211), 0 6px 20px 0 rgb(108, 84, 211);
+}
+
+#start_login_div > #login_btn{
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    float: right;
+    color:rgb(108, 84, 211);
+    margin-left: 60px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(108, 84, 211);
+}
+
+/* .free_icon_div{
+    width: 20%;
+}
+
+.free_content_div{
+    width: 80%;
+} */
+
+
+
+
+
+
+
+
+
+

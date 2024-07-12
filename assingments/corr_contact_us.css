@@ -1,0 +1,62 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+.blueDiv{
+    background-color: blue;
+    height: 650px;
+    width: 100%;   
+}
+
+#white1Div{
+    height: 1000px;
+    width: 100%;   
+}
+
+#white2Div{
+    height: 300px;
+    width: 100%;   
+}
+
+#formInfoDiv{
+    background-color: white;
+    position: absolute;
+    height: 400px;
+    width: 60%;
+    top: 450px;
+    left: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#freeCourseDiv{
+    position: absolute;
+    height: 200px;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    margin-top: -100px;
+    left: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#premiumCourseDiv{
+    position: absolute;
+    height: 200px;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    margin-top: -100px;
+    right: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* #box_container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aqua;
+}
+
+.box{
+    width: 50px;
+    height: 60px;
+    background-color: blue;
+} */
